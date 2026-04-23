@@ -126,5 +126,1477 @@
         "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."
       }
     ]
+  },
+  {
+    "qid": "hp9",
+    "difficulty": "easy",
+    "question": "In which country is the Eiffel Tower located?",
+    "gold_answer": "France",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is a wrought-iron lattice tower located in Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is the capital and largest city of France."
+      }
+    ]
+  },
+  {
+    "qid": "hp10",
+    "difficulty": "medium",
+    "question": "What is the currency of the country where the Colosseum is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "The Colosseum is an ancient amphitheatre located in Rome, Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy uses the Euro as its official currency."
+      }
+    ]
+  },
+  {
+    "qid": "hp11",
+    "difficulty": "easy",
+    "question": "In what year did the director of Jurassic Park release E.T. the Extra-Terrestrial?",
+    "gold_answer": "1982",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a 1993 film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg directed E.T. the Extra-Terrestrial, which was released in 1982."
+      }
+    ]
+  },
+  {
+    "qid": "hp12",
+    "difficulty": "medium",
+    "question": "Which continent is the country where Machu Picchu is located on?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is a 15th-century Inca citadel located in Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru is a country located in western South America."
+      }
+    ]
+  },
+  {
+    "qid": "hp13",
+    "difficulty": "easy",
+    "question": "What planet is named after the Roman god who is the father of Mars?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Mars (mythology)",
+        "text": "In Roman mythology, Mars is the son of Jupiter."
+      },
+      {
+        "title": "Jupiter (planet)",
+        "text": "The planet Jupiter is named after the Roman king of the gods."
+      }
+    ]
+  },
+  {
+    "qid": "hp14",
+    "difficulty": "hard",
+    "question": "Which strait separates the country where Istanbul is located from the continent of Asia?",
+    "gold_answer": "Bosporus",
+    "context": [
+      {
+        "title": "Istanbul",
+        "text": "Istanbul is the largest city in Turkey and straddles two continents."
+      },
+      {
+        "title": "Turkey",
+        "text": "Turkey is separated from Asia by the Bosporus strait."
+      }
+    ]
+  },
+  {
+    "qid": "hp15",
+    "difficulty": "medium",
+    "question": "What is the capital of the country that produced the composer Mozart?",
+    "gold_answer": "Vienna",
+    "context": [
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "text": "Wolfgang Amadeus Mozart was an Austrian composer of the Classical period."
+      },
+      {
+        "title": "Austria",
+        "text": "Vienna is the capital and largest city of Austria."
+      }
+    ]
+  },
+  {
+    "qid": "hp16",
+    "difficulty": "easy",
+    "question": "In which city was the painter of the Mona Lisa born?",
+    "gold_answer": "Vinci",
+    "context": [
+      {
+        "title": "Mona Lisa",
+        "text": "The Mona Lisa is a portrait painted by Leonardo da Vinci."
+      },
+      {
+        "title": "Leonardo da Vinci",
+        "text": "Leonardo da Vinci was born in the town of Vinci, Italy."
+      }
+    ]
+  },
+  {
+    "qid": "hp17",
+    "difficulty": "medium",
+    "question": "Which desert covers most of the country whose capital is Cairo?",
+    "gold_answer": "Sahara",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital of Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "Most of Egypt is covered by the Sahara desert."
+      }
+    ]
+  },
+  {
+    "qid": "hp18",
+    "difficulty": "hard",
+    "question": "Which gulf is the country that owns the Galapagos Islands bordered by?",
+    "gold_answer": "Gulf of Guayaquil",
+    "context": [
+      {
+        "title": "Galapagos Islands",
+        "text": "The Galapagos Islands are a province of Ecuador."
+      },
+      {
+        "title": "Ecuador",
+        "text": "Ecuador is bordered to the southwest by the Gulf of Guayaquil."
+      }
+    ]
+  },
+  {
+    "qid": "hp19",
+    "difficulty": "easy",
+    "question": "What is the nationality of the physicist who formulated the theory of general relativity?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Theory of general relativity",
+        "text": "The theory of general relativity was formulated by Albert Einstein."
+      },
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was a German-born theoretical physicist."
+      }
+    ]
+  },
+  {
+    "qid": "hp20",
+    "difficulty": "medium",
+    "question": "Which river is the longest in the continent where the Sahara is located?",
+    "gold_answer": "Nile",
+    "context": [
+      {
+        "title": "Sahara",
+        "text": "The Sahara is the largest hot desert in the world, located in Africa."
+      },
+      {
+        "title": "Africa",
+        "text": "The Nile is the longest river in Africa."
+      }
+    ]
+  },
+  {
+    "qid": "hp21",
+    "difficulty": "easy",
+    "question": "Which sport is the athlete Michael Jordan most famous for?",
+    "gold_answer": "basketball",
+    "context": [
+      {
+        "title": "Michael Jordan",
+        "text": "Michael Jordan played for the Chicago Bulls."
+      },
+      {
+        "title": "Chicago Bulls",
+        "text": "The Chicago Bulls are a professional basketball team."
+      }
+    ]
+  },
+  {
+    "qid": "hp22",
+    "difficulty": "medium",
+    "question": "What is the official language of the country where Angkor Wat is located?",
+    "gold_answer": "Khmer",
+    "context": [
+      {
+        "title": "Angkor Wat",
+        "text": "Angkor Wat is a temple complex in Cambodia."
+      },
+      {
+        "title": "Cambodia",
+        "text": "The official language of Cambodia is Khmer."
+      }
+    ]
+  },
+  {
+    "qid": "hp23",
+    "difficulty": "hard",
+    "question": "Which organization awarded the Nobel Peace Prize to the leader who founded modern Turkey's neighbor that is home to the Parthenon?",
+    "gold_answer": "Norwegian Nobel Committee",
+    "context": [
+      {
+        "title": "Parthenon",
+        "text": "The Parthenon is located in Athens, Greece."
+      },
+      {
+        "title": "Nobel Peace Prize",
+        "text": "The Nobel Peace Prize is awarded by the Norwegian Nobel Committee."
+      }
+    ]
+  },
+  {
+    "qid": "hp24",
+    "difficulty": "easy",
+    "question": "In which country was the inventor of the telephone born?",
+    "gold_answer": "Scotland",
+    "context": [
+      {
+        "title": "Telephone",
+        "text": "The telephone was invented by Alexander Graham Bell."
+      },
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell was born in Edinburgh, Scotland."
+      }
+    ]
+  },
+  {
+    "qid": "hp25",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Great Barrier Reef is located?",
+    "gold_answer": "Canberra",
+    "context": [
+      {
+        "title": "Great Barrier Reef",
+        "text": "The Great Barrier Reef is located off the coast of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Canberra is the capital city of Australia."
+      }
+    ]
+  },
+  {
+    "qid": "hp26",
+    "difficulty": "easy",
+    "question": "What was the profession of the person who wrote Hamlet?",
+    "gold_answer": "playwright",
+    "context": [
+      {
+        "title": "Hamlet",
+        "text": "Hamlet is a tragedy written by William Shakespeare."
+      },
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was an English playwright and poet."
+      }
+    ]
+  },
+  {
+    "qid": "hp27",
+    "difficulty": "hard",
+    "question": "Which volcano is the highest in the country whose capital is Tokyo?",
+    "gold_answer": "Mount Fuji",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Mount Fuji is the highest volcano in Japan."
+      }
+    ]
+  },
+  {
+    "qid": "hp28",
+    "difficulty": "medium",
+    "question": "Which sea borders the country where the Acropolis is located?",
+    "gold_answer": "Aegean Sea",
+    "context": [
+      {
+        "title": "Acropolis",
+        "text": "The Acropolis is an ancient citadel located in Athens, Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "Greece is bordered by the Aegean Sea to the east."
+      }
+    ]
+  },
+  {
+    "qid": "hp29",
+    "difficulty": "easy",
+    "question": "What is the largest city in the country that produced the band The Beatles?",
+    "gold_answer": "London",
+    "context": [
+      {
+        "title": "The Beatles",
+        "text": "The Beatles were an English rock band formed in Liverpool, England."
+      },
+      {
+        "title": "England",
+        "text": "London is the largest city in England."
+      }
+    ]
+  },
+  {
+    "qid": "hp30",
+    "difficulty": "medium",
+    "question": "What sea does the river that flows through Vienna empty into?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {
+        "title": "Vienna",
+        "text": "Vienna is located on the Danube river."
+      },
+      {
+        "title": "Danube",
+        "text": "The Danube flows into the Black Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp31",
+    "difficulty": "easy",
+    "question": "What is the primary subject of the book written by Charles Darwin titled On the Origin of Species?",
+    "gold_answer": "evolution",
+    "context": [
+      {
+        "title": "On the Origin of Species",
+        "text": "On the Origin of Species was published in 1859 and written by Charles Darwin."
+      },
+      {
+        "title": "Charles Darwin",
+        "text": "Charles Darwin developed the theory of evolution by natural selection."
+      }
+    ]
+  },
+  {
+    "qid": "hp32",
+    "difficulty": "hard",
+    "question": "In which ocean is the archipelago that contains the country whose capital is Manila?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Manila",
+        "text": "Manila is the capital of the Philippines."
+      },
+      {
+        "title": "Philippines",
+        "text": "The Philippines is an archipelago located in the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp33",
+    "difficulty": "medium",
+    "question": "Who was the first president of the country where the Statue of Liberty is located?",
+    "gold_answer": "George Washington",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty stands in New York Harbor in the United States."
+      },
+      {
+        "title": "United States",
+        "text": "George Washington was the first president of the United States."
+      }
+    ]
+  },
+  {
+    "qid": "hp34",
+    "difficulty": "easy",
+    "question": "What is the largest desert in the continent where the country of Kenya is located?",
+    "gold_answer": "Sahara",
+    "context": [
+      {
+        "title": "Kenya",
+        "text": "Kenya is a country located in East Africa."
+      },
+      {
+        "title": "Africa",
+        "text": "The Sahara is the largest desert in Africa."
+      }
+    ]
+  },
+  {
+    "qid": "hp35",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Leaning Tower of Pisa is located?",
+    "gold_answer": "Rome",
+    "context": [
+      {
+        "title": "Leaning Tower of Pisa",
+        "text": "The Leaning Tower of Pisa is located in Pisa, Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Rome is the capital of Italy."
+      }
+    ]
+  },
+  {
+    "qid": "hp36",
+    "difficulty": "hard",
+    "question": "What mountain range forms the natural border of the country whose capital is Santiago on its eastern side?",
+    "gold_answer": "Andes",
+    "context": [
+      {
+        "title": "Santiago",
+        "text": "Santiago is the capital of Chile."
+      },
+      {
+        "title": "Chile",
+        "text": "Chile is bordered on the east by the Andes mountain range."
+      }
+    ]
+  },
+  {
+    "qid": "hp37",
+    "difficulty": "easy",
+    "question": "What ancient civilization built the structure known as Machu Picchu?",
+    "gold_answer": "Inca",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is located in the Andes mountains of Peru."
+      },
+      {
+        "title": "Andes",
+        "text": "Machu Picchu was built by the Inca civilization."
+      }
+    ]
+  },
+  {
+    "qid": "hp38",
+    "difficulty": "medium",
+    "question": "What sea borders the country where the city of Barcelona is located on the east?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Barcelona",
+        "text": "Barcelona is a city located in northeastern Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "Spain is bordered on the east by the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp39",
+    "difficulty": "easy",
+    "question": "What genre of music is the musician who released Thriller best known for?",
+    "gold_answer": "pop",
+    "context": [
+      {
+        "title": "Thriller (album)",
+        "text": "Thriller is an album released in 1982 by Michael Jackson."
+      },
+      {
+        "title": "Michael Jackson",
+        "text": "Michael Jackson was known as the King of Pop."
+      }
+    ]
+  },
+  {
+    "qid": "hp40",
+    "difficulty": "hard",
+    "question": "Which ocean does the longest river in the country whose capital is Brasilia flow into?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Brasilia",
+        "text": "Brasilia is the capital of Brazil."
+      },
+      {
+        "title": "Amazon River",
+        "text": "The Amazon, the longest river in Brazil, flows into the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp41",
+    "difficulty": "medium",
+    "question": "Which empire originally ruled the country where the Taj Mahal is located?",
+    "gold_answer": "Mughal Empire",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "The Taj Mahal is a mausoleum located in Agra, India."
+      },
+      {
+        "title": "India",
+        "text": "The Taj Mahal was commissioned by the Mughal Empire."
+      }
+    ]
+  },
+  {
+    "qid": "hp42",
+    "difficulty": "easy",
+    "question": "What language was the author of Don Quixote writing in?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Don Quixote",
+        "text": "Don Quixote was written by Miguel de Cervantes."
+      },
+      {
+        "title": "Miguel de Cervantes",
+        "text": "Miguel de Cervantes was a Spanish writer who wrote in Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "hp43",
+    "difficulty": "medium",
+    "question": "What is the official language of the country that contains the city of Zurich?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Zurich",
+        "text": "Zurich is the largest city in Switzerland."
+      },
+      {
+        "title": "Switzerland",
+        "text": "One of the official languages of Switzerland is German."
+      }
+    ]
+  },
+  {
+    "qid": "hp44",
+    "difficulty": "hard",
+    "question": "What is the highest peak in the mountain range that forms the border of the country whose capital is Bern?",
+    "gold_answer": "Dufourspitze",
+    "context": [
+      {
+        "title": "Bern",
+        "text": "Bern is the capital of Switzerland."
+      },
+      {
+        "title": "Alps",
+        "text": "Dufourspitze is the highest peak in the Swiss Alps, which forms a border of Switzerland."
+      }
+    ]
+  },
+  {
+    "qid": "hp45",
+    "difficulty": "easy",
+    "question": "What is the profession of the person who painted the ceiling of the Sistine Chapel?",
+    "gold_answer": "sculptor",
+    "context": [
+      {
+        "title": "Sistine Chapel",
+        "text": "The ceiling of the Sistine Chapel was painted by Michelangelo."
+      },
+      {
+        "title": "Michelangelo",
+        "text": "Michelangelo was an Italian sculptor, painter, and architect."
+      }
+    ]
+  },
+  {
+    "qid": "hp46",
+    "difficulty": "medium",
+    "question": "What is the capital of the country that borders the Dead Sea to the west?",
+    "gold_answer": "Jerusalem",
+    "context": [
+      {
+        "title": "Dead Sea",
+        "text": "The Dead Sea is bordered by Israel to the west."
+      },
+      {
+        "title": "Israel",
+        "text": "Jerusalem is the capital of Israel."
+      }
+    ]
+  },
+  {
+    "qid": "hp47",
+    "difficulty": "easy",
+    "question": "What is the main religion practiced in the country where the Vatican is located?",
+    "gold_answer": "Catholicism",
+    "context": [
+      {
+        "title": "Vatican",
+        "text": "The Vatican is an enclave within Rome, Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The main religion in Italy is Roman Catholicism."
+      }
+    ]
+  },
+  {
+    "qid": "hp48",
+    "difficulty": "hard",
+    "question": "What is the official currency of the country where the Northern Lights are most commonly seen near Tromsø?",
+    "gold_answer": "Norwegian krone",
+    "context": [
+      {
+        "title": "Tromsø",
+        "text": "Tromsø is a city in Norway where the Northern Lights are often visible."
+      },
+      {
+        "title": "Norway",
+        "text": "The official currency of Norway is the Norwegian krone."
+      }
+    ]
+  },
+  {
+    "qid": "hp49",
+    "difficulty": "medium",
+    "question": "Which body of water separates the country where Shakespeare was born from France?",
+    "gold_answer": "English Channel",
+    "context": [
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was born in England."
+      },
+      {
+        "title": "England",
+        "text": "England is separated from France by the English Channel."
+      }
+    ]
+  },
+  {
+    "qid": "hp50",
+    "difficulty": "easy",
+    "question": "What sport is played at Wimbledon, which is located in the capital of England?",
+    "gold_answer": "tennis",
+    "context": [
+      {
+        "title": "Wimbledon",
+        "text": "Wimbledon is a neighborhood in London, England."
+      },
+      {
+        "title": "The Championships, Wimbledon",
+        "text": "Wimbledon hosts the oldest tennis tournament in the world."
+      }
+    ]
+  },
+  {
+    "qid": "hp51",
+    "difficulty": "medium",
+    "question": "What is the national animal of the country whose capital is Beijing?",
+    "gold_answer": "giant panda",
+    "context": [
+      {
+        "title": "Beijing",
+        "text": "Beijing is the capital of China."
+      },
+      {
+        "title": "China",
+        "text": "The national animal of China is the giant panda."
+      }
+    ]
+  },
+  {
+    "qid": "hp52",
+    "difficulty": "hard",
+    "question": "Which war ended with a treaty signed in the country that borders Spain to the north?",
+    "gold_answer": "World War I",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "Spain is bordered to the north by France."
+      },
+      {
+        "title": "Treaty of Versailles",
+        "text": "World War I ended with the Treaty of Versailles, signed in France."
+      }
+    ]
+  },
+  {
+    "qid": "hp53",
+    "difficulty": "easy",
+    "question": "What is the currency of the country where the city Berlin is the capital?",
+    "gold_answer": "Euro",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany uses the Euro as its official currency."
+      }
+    ]
+  },
+  {
+    "qid": "hp54",
+    "difficulty": "medium",
+    "question": "Which gulf does the country whose capital is Riyadh border?",
+    "gold_answer": "Persian Gulf",
+    "context": [
+      {
+        "title": "Riyadh",
+        "text": "Riyadh is the capital of Saudi Arabia."
+      },
+      {
+        "title": "Saudi Arabia",
+        "text": "Saudi Arabia borders the Persian Gulf to the east."
+      }
+    ]
+  },
+  {
+    "qid": "hp55",
+    "difficulty": "easy",
+    "question": "In which US state was the 16th president of the United States born?",
+    "gold_answer": "Kentucky",
+    "context": [
+      {
+        "title": "Abraham Lincoln",
+        "text": "Abraham Lincoln was the 16th president of the United States."
+      },
+      {
+        "title": "Early life of Abraham Lincoln",
+        "text": "Abraham Lincoln was born in a log cabin in Kentucky."
+      }
+    ]
+  },
+  {
+    "qid": "hp56",
+    "difficulty": "hard",
+    "question": "What is the primary export crop of the island nation whose capital is Havana?",
+    "gold_answer": "sugar",
+    "context": [
+      {
+        "title": "Havana",
+        "text": "Havana is the capital of Cuba."
+      },
+      {
+        "title": "Cuba",
+        "text": "The primary export crop of Cuba is sugar."
+      }
+    ]
+  },
+  {
+    "qid": "hp57",
+    "difficulty": "medium",
+    "question": "Which sea does the country whose capital is Stockholm border on the east?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Stockholm",
+        "text": "Stockholm is the capital of Sweden."
+      },
+      {
+        "title": "Sweden",
+        "text": "Sweden borders the Baltic Sea to the east."
+      }
+    ]
+  },
+  {
+    "qid": "hp58",
+    "difficulty": "easy",
+    "question": "What field did the person who developed the theory of evolution work in?",
+    "gold_answer": "biology",
+    "context": [
+      {
+        "title": "Theory of evolution",
+        "text": "The theory of evolution was proposed by Charles Darwin."
+      },
+      {
+        "title": "Charles Darwin",
+        "text": "Charles Darwin was an English naturalist who worked in biology."
+      }
+    ]
+  },
+  {
+    "qid": "hp59",
+    "difficulty": "hard",
+    "question": "What is the largest lake in the country whose capital is Ottawa?",
+    "gold_answer": "Lake Superior",
+    "context": [
+      {
+        "title": "Ottawa",
+        "text": "Ottawa is the capital of Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "Lake Superior is the largest lake in Canada by area."
+      }
+    ]
+  },
+  {
+    "qid": "hp60",
+    "difficulty": "medium",
+    "question": "What is the primary language spoken in the country where the pyramids of Giza are located?",
+    "gold_answer": "Arabic",
+    "context": [
+      {
+        "title": "Pyramids of Giza",
+        "text": "The Pyramids of Giza are located in Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "The primary language spoken in Egypt is Arabic."
+      }
+    ]
+  },
+  {
+    "qid": "hp61",
+    "difficulty": "easy",
+    "question": "What type of animal is the mascot of the sports team Chicago Bulls?",
+    "gold_answer": "bull",
+    "context": [
+      {
+        "title": "Chicago Bulls",
+        "text": "The Chicago Bulls are a basketball team whose mascot is named Benny the Bull."
+      },
+      {
+        "title": "Benny the Bull",
+        "text": "Benny the Bull is a cartoon bull."
+      }
+    ]
+  },
+  {
+    "qid": "hp62",
+    "difficulty": "medium",
+    "question": "What is the official language of the country where Buenos Aires is the capital?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Buenos Aires",
+        "text": "Buenos Aires is the capital of Argentina."
+      },
+      {
+        "title": "Argentina",
+        "text": "The official language of Argentina is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "hp63",
+    "difficulty": "hard",
+    "question": "What branch of science studies the main subject of the book The Selfish Gene, written by a biologist born in Kenya?",
+    "gold_answer": "evolutionary biology",
+    "context": [
+      {
+        "title": "The Selfish Gene",
+        "text": "The Selfish Gene is a book about genes and evolution written by Richard Dawkins."
+      },
+      {
+        "title": "Richard Dawkins",
+        "text": "Richard Dawkins is an evolutionary biologist who was born in Kenya."
+      }
+    ]
+  },
+  {
+    "qid": "hp64",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where Mount Kilimanjaro is located?",
+    "gold_answer": "Dodoma",
+    "context": [
+      {
+        "title": "Mount Kilimanjaro",
+        "text": "Mount Kilimanjaro is located in Tanzania."
+      },
+      {
+        "title": "Tanzania",
+        "text": "Dodoma is the capital of Tanzania."
+      }
+    ]
+  },
+  {
+    "qid": "hp65",
+    "difficulty": "medium",
+    "question": "Which mountain range runs through the country whose capital is Bogotá?",
+    "gold_answer": "Andes",
+    "context": [
+      {
+        "title": "Bogotá",
+        "text": "Bogotá is the capital of Colombia."
+      },
+      {
+        "title": "Colombia",
+        "text": "The Andes mountain range runs through Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "hp66",
+    "difficulty": "easy",
+    "question": "What is the birth country of the author who wrote War and Peace?",
+    "gold_answer": "Russia",
+    "context": [
+      {
+        "title": "War and Peace",
+        "text": "War and Peace is a novel by Leo Tolstoy."
+      },
+      {
+        "title": "Leo Tolstoy",
+        "text": "Leo Tolstoy was born in Russia."
+      }
+    ]
+  },
+  {
+    "qid": "hp67",
+    "difficulty": "hard",
+    "question": "What is the official currency of the country where the source of the longest river in Asia is located?",
+    "gold_answer": "Chinese yuan",
+    "context": [
+      {
+        "title": "Yangtze River",
+        "text": "The Yangtze is the longest river in Asia and originates in China."
+      },
+      {
+        "title": "China",
+        "text": "The official currency of China is the Chinese yuan."
+      }
+    ]
+  },
+  {
+    "qid": "hp68",
+    "difficulty": "medium",
+    "question": "What sport did the athlete who won eight Olympic gold medals in 2008 compete in?",
+    "gold_answer": "swimming",
+    "context": [
+      {
+        "title": "2008 Summer Olympics",
+        "text": "Michael Phelps won eight gold medals at the 2008 Summer Olympics."
+      },
+      {
+        "title": "Michael Phelps",
+        "text": "Michael Phelps is a retired American swimmer."
+      }
+    ]
+  },
+  {
+    "qid": "hp69",
+    "difficulty": "easy",
+    "question": "What animal is used as the symbol of the zodiac sign associated with the month of July?",
+    "gold_answer": "crab",
+    "context": [
+      {
+        "title": "July",
+        "text": "The zodiac sign associated with most of July is Cancer."
+      },
+      {
+        "title": "Cancer (astrology)",
+        "text": "Cancer is represented by the crab."
+      }
+    ]
+  },
+  {
+    "qid": "hp70",
+    "difficulty": "medium",
+    "question": "What is the name of the body of water that the country whose capital is Copenhagen borders?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Copenhagen",
+        "text": "Copenhagen is the capital of Denmark."
+      },
+      {
+        "title": "Denmark",
+        "text": "Denmark borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp71",
+    "difficulty": "hard",
+    "question": "What is the official language of the country where the inventor of dynamite was born?",
+    "gold_answer": "Swedish",
+    "context": [
+      {
+        "title": "Dynamite",
+        "text": "Dynamite was invented by Alfred Nobel."
+      },
+      {
+        "title": "Alfred Nobel",
+        "text": "Alfred Nobel was born in Sweden, where the official language is Swedish."
+      }
+    ]
+  },
+  {
+    "qid": "hp72",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon rainforest is primarily located?",
+    "gold_answer": "Brasilia",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "Brasilia is the capital of Brazil."
+      }
+    ]
+  },
+  {
+    "qid": "hp73",
+    "difficulty": "medium",
+    "question": "Which sea is located to the north of the country whose capital is Warsaw?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "Poland is bordered to the north by the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp74",
+    "difficulty": "hard",
+    "question": "What scientific discipline did the scientist who discovered radium work in?",
+    "gold_answer": "chemistry",
+    "context": [
+      {
+        "title": "Radium",
+        "text": "Radium was discovered by Marie Curie and her husband Pierre."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was a pioneer in the field of chemistry and physics."
+      }
+    ]
+  },
+  {
+    "qid": "hp75",
+    "difficulty": "easy",
+    "question": "What is the national sport of the country where the Maple Leafs hockey team plays?",
+    "gold_answer": "lacrosse",
+    "context": [
+      {
+        "title": "Toronto Maple Leafs",
+        "text": "The Toronto Maple Leafs are a hockey team based in Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "The national summer sport of Canada is lacrosse."
+      }
+    ]
+  },
+  {
+    "qid": "hp76",
+    "difficulty": "medium",
+    "question": "Which ocean does the country whose capital is Reykjavik border?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland is an island nation located in the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp77",
+    "difficulty": "easy",
+    "question": "What is the primary language of the country where Mount Everest is partially located, aside from Nepali?",
+    "gold_answer": "Tibetan",
+    "context": [
+      {
+        "title": "Mount Everest",
+        "text": "Mount Everest lies on the border between Nepal and Tibet."
+      },
+      {
+        "title": "Tibet",
+        "text": "The primary language of Tibet is Tibetan."
+      }
+    ]
+  },
+  {
+    "qid": "hp78",
+    "difficulty": "hard",
+    "question": "What is the capital of the country where the headquarters of the European Union are located?",
+    "gold_answer": "Brussels",
+    "context": [
+      {
+        "title": "European Union",
+        "text": "The headquarters of the European Union are located in Belgium."
+      },
+      {
+        "title": "Belgium",
+        "text": "Brussels is the capital of Belgium."
+      }
+    ]
+  },
+  {
+    "qid": "hp79",
+    "difficulty": "medium",
+    "question": "What dance style is associated with the country whose capital is Buenos Aires?",
+    "gold_answer": "tango",
+    "context": [
+      {
+        "title": "Buenos Aires",
+        "text": "Buenos Aires is the capital of Argentina."
+      },
+      {
+        "title": "Argentina",
+        "text": "Argentina is known for the tango dance."
+      }
+    ]
+  },
+  {
+    "qid": "hp80",
+    "difficulty": "easy",
+    "question": "What kind of instrument is featured in the famous piece written by the Polish composer Chopin?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Frédéric Chopin",
+        "text": "Frédéric Chopin was a Polish composer known for his solo piano works."
+      },
+      {
+        "title": "Nocturnes, Op. 9",
+        "text": "Chopin's Nocturnes, Op. 9 are works for piano."
+      }
+    ]
+  },
+  {
+    "qid": "hp81",
+    "difficulty": "medium",
+    "question": "What is the currency of the country where the Oktoberfest is held annually?",
+    "gold_answer": "Euro",
+    "context": [
+      {
+        "title": "Oktoberfest",
+        "text": "Oktoberfest is an annual festival held in Munich, Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany uses the Euro as its official currency."
+      }
+    ]
+  },
+  {
+    "qid": "hp82",
+    "difficulty": "hard",
+    "question": "What is the name of the volcano that last erupted in the country where the city of Naples is located?",
+    "gold_answer": "Mount Vesuvius",
+    "context": [
+      {
+        "title": "Naples",
+        "text": "Naples is a city in southern Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Mount Vesuvius, located near Naples, last erupted in Italy in 1944."
+      }
+    ]
+  },
+  {
+    "qid": "hp83",
+    "difficulty": "easy",
+    "question": "What ocean borders the state where Hollywood is located on the west?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Hollywood",
+        "text": "Hollywood is a neighborhood in Los Angeles, California."
+      },
+      {
+        "title": "California",
+        "text": "California is bordered on the west by the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp84",
+    "difficulty": "medium",
+    "question": "What is the official language of the country where the Great Wall is located?",
+    "gold_answer": "Mandarin",
+    "context": [
+      {
+        "title": "Great Wall of China",
+        "text": "The Great Wall is a series of fortifications in China."
+      },
+      {
+        "title": "China",
+        "text": "The official language of China is Mandarin."
+      }
+    ]
+  },
+  {
+    "qid": "hp85",
+    "difficulty": "hard",
+    "question": "What type of government rules the country where the Hermitage Museum is located?",
+    "gold_answer": "federal semi-presidential republic",
+    "context": [
+      {
+        "title": "Hermitage Museum",
+        "text": "The Hermitage Museum is located in Saint Petersburg, Russia."
+      },
+      {
+        "title": "Russia",
+        "text": "Russia is a federal semi-presidential republic."
+      }
+    ]
+  },
+  {
+    "qid": "hp86",
+    "difficulty": "easy",
+    "question": "What fruit is the country Colombia the largest exporter of after oil?",
+    "gold_answer": "coffee",
+    "context": [
+      {
+        "title": "Colombia",
+        "text": "Colombia is located in northwestern South America."
+      },
+      {
+        "title": "Economy of Colombia",
+        "text": "Colombia is one of the world's largest exporters of coffee."
+      }
+    ]
+  },
+  {
+    "qid": "hp87",
+    "difficulty": "medium",
+    "question": "Which mountain is the highest in the continent where the country Argentina is located?",
+    "gold_answer": "Aconcagua",
+    "context": [
+      {
+        "title": "Argentina",
+        "text": "Argentina is a country in South America."
+      },
+      {
+        "title": "South America",
+        "text": "Aconcagua is the highest mountain in South America."
+      }
+    ]
+  },
+  {
+    "qid": "hp88",
+    "difficulty": "easy",
+    "question": "What is the religion most commonly associated with the country where the city of Mecca is located?",
+    "gold_answer": "Islam",
+    "context": [
+      {
+        "title": "Mecca",
+        "text": "Mecca is a holy city located in Saudi Arabia."
+      },
+      {
+        "title": "Saudi Arabia",
+        "text": "The predominant religion in Saudi Arabia is Islam."
+      }
+    ]
+  },
+  {
+    "qid": "hp89",
+    "difficulty": "hard",
+    "question": "What sea feeds into the canal that was built in the country with Cairo as its capital?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital of Egypt, home to the Suez Canal."
+      },
+      {
+        "title": "Suez Canal",
+        "text": "The Suez Canal connects the Mediterranean Sea to the Red Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp90",
+    "difficulty": "medium",
+    "question": "What is the main body of water surrounding the country where Wellington is the capital?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Wellington",
+        "text": "Wellington is the capital of New Zealand."
+      },
+      {
+        "title": "New Zealand",
+        "text": "New Zealand is located in the southwestern Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp91",
+    "difficulty": "easy",
+    "question": "What is the national flower of the country where Tokyo is the capital?",
+    "gold_answer": "cherry blossom",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The national flower of Japan is the cherry blossom."
+      }
+    ]
+  },
+  {
+    "qid": "hp92",
+    "difficulty": "hard",
+    "question": "What is the dominant religion in the country that contains the Blue Mosque?",
+    "gold_answer": "Islam",
+    "context": [
+      {
+        "title": "Blue Mosque",
+        "text": "The Blue Mosque is located in Istanbul, Turkey."
+      },
+      {
+        "title": "Turkey",
+        "text": "The dominant religion in Turkey is Islam."
+      }
+    ]
+  },
+  {
+    "qid": "hp93",
+    "difficulty": "medium",
+    "question": "What ocean does the longest river in the United States flow into?",
+    "gold_answer": "Gulf of Mexico",
+    "context": [
+      {
+        "title": "Longest rivers of the United States",
+        "text": "The Missouri River is the longest river in the United States."
+      },
+      {
+        "title": "Missouri River",
+        "text": "The Missouri River is a tributary of the Mississippi, which flows into the Gulf of Mexico."
+      }
+    ]
+  },
+  {
+    "qid": "hp94",
+    "difficulty": "easy",
+    "question": "What country is home to the company that makes the iPhone?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "iPhone",
+        "text": "The iPhone is a line of smartphones designed and marketed by Apple Inc."
+      },
+      {
+        "title": "Apple Inc.",
+        "text": "Apple Inc. is an American multinational technology company headquartered in the United States."
+      }
+    ]
+  },
+  {
+    "qid": "hp95",
+    "difficulty": "hard",
+    "question": "Which Formula 1 driver won the most championships from the country of origin of the Ferrari automobile brand?",
+    "gold_answer": "Michael Schumacher",
+    "context": [
+      {
+        "title": "Ferrari",
+        "text": "Ferrari is an Italian luxury sports car manufacturer based in Italy."
+      },
+      {
+        "title": "Ferrari in Formula One",
+        "text": "Michael Schumacher won the most championships with Ferrari."
+      }
+    ]
+  },
+  {
+    "qid": "hp96",
+    "difficulty": "medium",
+    "question": "What is the main language spoken in the country where the Prado Museum is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Prado Museum",
+        "text": "The Prado Museum is located in Madrid, Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The main language spoken in Spain is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "hp97",
+    "difficulty": "easy",
+    "question": "What is the profession of the person who composed the Ninth Symphony?",
+    "gold_answer": "composer",
+    "context": [
+      {
+        "title": "Ninth Symphony",
+        "text": "The Ninth Symphony is a famous work composed by Ludwig van Beethoven."
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "text": "Ludwig van Beethoven was a German composer and pianist."
+      }
+    ]
+  },
+  {
+    "qid": "hp98",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country where the novel Les Misérables was written?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Les Misérables",
+        "text": "Les Misérables is a French novel written by Victor Hugo."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris, the capital of France, is crossed by the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp99",
+    "difficulty": "medium",
+    "question": "What mountain range lies between the country whose capital is Madrid and France?",
+    "gold_answer": "Pyrenees",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The Pyrenees mountain range forms the border between Spain and France."
+      }
+    ]
+  },
+  {
+    "qid": "hp100",
+    "difficulty": "easy",
+    "question": "What type of animal is the national symbol of the country where Washington D.C. is the capital?",
+    "gold_answer": "bald eagle",
+    "context": [
+      {
+        "title": "Washington, D.C.",
+        "text": "Washington, D.C. is the capital of the United States."
+      },
+      {
+        "title": "United States",
+        "text": "The national symbol of the United States is the bald eagle."
+      }
+    ]
   }
 ]

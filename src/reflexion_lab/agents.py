@@ -5,7 +5,9 @@ from .mock_runtime import (
     FAILURE_MODE_BY_QID,
     actor_answer,
     evaluator,
+    executor,
     get_usage_stats,
+    planner,
     reflector,
     reset_usage_stats,
 )
@@ -24,6 +26,7 @@ def _format_reflection(entry: ReflectionEntry) -> str:
 class BaseAgent:
     agent_type: Literal["react", "reflexion"]
     max_attempts: int = 1
+    plan_then_execute: bool = False
 
     def run(self, example: QAExample) -> RunRecord:
         reflection_memory: list[str] = []
@@ -35,7 +38,11 @@ class BaseAgent:
 
         for attempt_id in range(1, self.max_attempts + 1):
             reset_usage_stats()
-            answer = actor_answer(example, attempt_id, self.agent_type, reflection_memory)
+            if self.plan_then_execute:
+                plan = planner(example)
+                answer = executor(example, attempt_id, plan, reflection_memory)
+            else:
+                answer = actor_answer(example, attempt_id, self.agent_type, reflection_memory)
             judge = evaluator(example, answer)
 
             is_last_attempt = attempt_id == self.max_attempts
@@ -93,5 +100,9 @@ class ReActAgent(BaseAgent):
 
 
 class ReflexionAgent(BaseAgent):
-    def __init__(self, max_attempts: int = 3) -> None:
-        super().__init__(agent_type="reflexion", max_attempts=max_attempts)
+    def __init__(self, max_attempts: int = 3, plan_then_execute: bool = False) -> None:
+        super().__init__(
+            agent_type="reflexion",
+            max_attempts=max_attempts,
+            plan_then_execute=plan_then_execute,
+        )

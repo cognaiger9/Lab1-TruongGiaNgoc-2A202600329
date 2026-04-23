@@ -7,7 +7,13 @@ from typing import Optional
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from .prompts import ACTOR_SYSTEM, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM
+from .prompts import (
+    ACTOR_SYSTEM,
+    EVALUATOR_SYSTEM,
+    EXECUTOR_SYSTEM,
+    PLANNER_SYSTEM,
+    REFLECTOR_SYSTEM,
+)
 from .schemas import JudgeResult, QAExample, ReflectionEntry
 from .utils import normalize_answer
 
@@ -88,6 +94,44 @@ def actor_answer(
         "(no explanation, no punctuation beyond the answer itself)."
     )
     return _chat(ACTOR_SYSTEM, user).strip()
+
+
+def planner(example: QAExample) -> dict:
+    user = (
+        f"Question:\n{example.question}\n\n"
+        f"Context:\n{_format_context(example)}\n\n"
+        "Return the JSON plan now."
+    )
+    raw = _chat(PLANNER_SYSTEM, user, json_mode=True)
+    data = json.loads(raw)
+    data.setdefault("hops", [])
+    data.setdefault("bridge_entities", [])
+    return data
+
+
+def executor(
+    example: QAExample,
+    attempt_id: int,
+    plan: dict,
+    reflection_memory: list[str],
+) -> str:
+    memory_block = ""
+    if reflection_memory:
+        bullets = "\n".join(f"- {r}" for r in reflection_memory)
+        memory_block = (
+            "\n\nPrevious reflections (use to avoid repeating mistakes):\n" + bullets
+        )
+    hops = "\n".join(f"{i + 1}. {h}" for i, h in enumerate(plan.get("hops", [])))
+    bridges = ", ".join(plan.get("bridge_entities", [])) or "n/a"
+    user = (
+        f"Question:\n{example.question}\n\n"
+        f"Context:\n{_format_context(example)}\n\n"
+        f"Plan:\n{hops}\nBridge entities: {bridges}"
+        f"{memory_block}\n\n"
+        f"Attempt #{attempt_id}. Return ONLY the final answer as a short entity or phrase "
+        "(no explanation, no punctuation beyond the answer itself)."
+    )
+    return _chat(EXECUTOR_SYSTEM, user).strip()
 
 
 def evaluator(example: QAExample, answer: str) -> JudgeResult:

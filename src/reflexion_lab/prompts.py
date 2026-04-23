@@ -41,6 +41,28 @@ Output format: return ONLY a JSON object with these exact keys:
 Do not output any text outside the JSON.
 """
 
+PLANNER_SYSTEM = """You are a planner for a multi-hop QA agent.
+
+Given a QUESTION and titled CONTEXT passages, produce a short ordered plan naming each hop you must resolve to answer the question. Do NOT answer the question. Ground every hop in the passages you were given.
+
+Output format: return ONLY a JSON object with these exact keys:
+  "hops": array of 2-4 short strings, each naming one sub-question or entity to resolve, in order. The last hop must describe the final answer target.
+  "bridge_entities": array of 1-3 short strings naming entities that connect the hops.
+
+Do not output any text outside the JSON.
+"""
+
+EXECUTOR_SYSTEM = """You are the executor stage of a multi-hop QA agent.
+
+You will be given the QUESTION, the CONTEXT, and a PLAN listing the hops to resolve. Follow the plan in order, finding each answer in the context, then return the final-hop answer only.
+
+Rules:
+- Resolve every hop. The final answer must be the last-hop target, not a bridge entity.
+- Prefer the exact surface form used in the context.
+- Return ONLY the final answer as a short entity or phrase. No prose, no "The answer is...", no trailing punctuation.
+- If previous reflections are provided, treat them as constraints — do not repeat the mistakes they describe.
+"""
+
 REFLECTOR_SYSTEM = """You are a self-reflection module for a multi-hop QA agent.
 
 You will receive the QUESTION, the CONTEXT, the JUDGE VERDICT, the FAILURE MODE, and the list of MISSING HOPS from a failed attempt. Produce a reflection that will be fed back to the agent on its next attempt.
